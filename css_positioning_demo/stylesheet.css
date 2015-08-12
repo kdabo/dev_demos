@@ -1,0 +1,114 @@
+html {
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+}
+
+.grand-reopening {
+	background: red;
+	color: yellow;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	margin: 0;
+}
+
+li {
+	border: 3px solid black;
+	position: relative;
+	float: left;
+	height: 300px;
+	width: 480px;
+}
+
+li h2, li. price {
+	z-index: 1;
+}
+
+.price {
+	color: red;
+	font-size: 3em;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+li h2 {
+	margin: 20px;
+	position: absolute;
+}
+
+li h2, li .price, li img {
+	position: absolute;
+}
+
+.cheese .price {
+	top: 0;
+	right: 0px;
+}
+
+.cheese img {
+	bottom: 0;	
+	left: 0;
+}
+
+.chicken .price {
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+.chicken img {
+	top: 0;
+	left: 0;
+}
+
+.chicken h2 {
+	
+	bottom: 0;
+	right: 0; 
+	z-index: 3
+
+}
+
+.fruit h2{
+	top: 0;
+	
+}
+
+.fruit .price {
+	top: 0;
+	left: 0;
+}
+
+
+.bread h2, .bread .price {
+	width: 100%
+	text-align: center;
+}
+
+.bread .price {
+	bottom: 0;
+}
+
+.bread img {
+	left: 50%;
+	top: 50%;
+	margin-top: 132px;
+	margin-left: 400px;
+}

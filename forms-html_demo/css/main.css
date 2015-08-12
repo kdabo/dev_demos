@@ -1,0 +1,262 @@
+html {
+    background: #002344;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px
+    }
+
+header {
+    background: #005275;
+    padding: 10px 0;
+    }
+
+header h1, footer h2 {
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap
+    }
+
+header h1 {
+    background-image: url(../img/logo.png);
+    float: left;
+    height: 50px;
+    margin: 0;
+    width: 171px
+    }
+
+.login {
+    color: #002344;
+    float: right;
+    font-size: 14px;
+    padding-top: 17px;
+}
+
+.login a {
+    color: #77A2B5;
+    border-left: 1px solid #002344;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.login__welcome, .login a {
+    float: left;    
+}
+
+nav, footer {
+    background: #002344
+    }
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: #77A2B5;
+    display: block;
+    font-size: 14px;
+}
+
+.nav li ul {
+    background: #002344;
+    display: none;
+    position: absolute;
+}
+
+.nav li:hover ul {
+    display: block;
+}
+
+nav li ul li {
+    float: none;
+}
+
+.nav ul {
+    margin: 0 auto;
+}
+
+.nav a {
+    padding: 10px 20px;    
+}
+
+/* pseudo-classes (element states): hover, active, focus, visited... */
+.nav a:hover {
+    background: #77A2B5;
+    color: white;
+}
+
+.hero {
+    background: #77A2B5 url(../img/hero.jpg) no-repeat 50% 50%;
+    padding-top: 220px
+    }
+
+.hero h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    text-shadow: 0 0 20px black;
+    }
+
+.hero h1 strong {
+    display: block
+    }
+
+.hero__content {
+    background: gray;
+    background: rgba(0, 0, 0, 0.25)
+    }
+
+.hero .container {
+    padding: 19px 0;
+    position: relative
+    }
+
+.sign-up-now {
+    background: #77A2B5;
+    background: -moz-linear-gradient(top, rgba(119, 162, 181, 1) 0%, rgba(0, 82, 117, 1) 100%);
+    /* FF3.6  */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(119, 162, 181, 1)), color-stop(100%, rgba(0, 82, 117, 1)));
+    /* Chrome,Safari4  */
+    background: -webkit-linear-gradient(top, rgba(119, 162, 181, 1) 0%, rgba(0, 82, 117, 1) 100%);
+    /* Chrome10 ,Safari5.1  */
+    background: -o-linear-gradient(top, rgba(119, 162, 181, 1) 0%, rgba(0, 82, 117, 1) 100%);
+    /* Opera 11.10  */
+    background: -ms-linear-gradient(top, rgba(119, 162, 181, 1) 0%, rgba(0, 82, 117, 1) 100%);
+    /* IE10  */
+    background: linear-gradient(to bottom, rgba(119, 162, 181, 1) 0%, rgba(0, 82, 117, 1) 100%);
+    /* W3C */
+    /* IE6-9 */
+    border: 1px solid #002344;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5) inset, -1px -1px 1px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5) inset, -1px -1px 1px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5) inset, -1px -1px 1px rgba(0, 0, 0, 0.5) inset;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    right: 0;
+    top: 37px
+    }
+
+.details {
+    background: #ECE2C6;
+    color: #002344;
+    }
+
+.details ul {
+    list-style: none;
+    margin: 0;
+    padding: 40px 0;
+    }
+
+.details li {
+    background-position: 0 -2px;
+    /* default - not necessary */
+    background-repeat: no-repeat;
+    margin: 0 auto 30px;
+    padding-left: 60px;
+    width: 75%;
+    }
+
+.details li:last-child {
+    margin-bottom: 0;
+}
+
+.details h2 {
+    margin: 0 0 5px;
+}
+
+.details p {
+    margin: 0;
+}
+
+.details a {
+    color: #005275;
+}
+
+.details__agile {
+    background-image: url(../img/agile.png)
+    }
+
+.details__mobile {
+    background-image: url(../img/mobile.png)
+    }
+
+.details__cloud {
+    background-image: url(../img/cloud.png)
+    }
+
+footer {
+    padding: 6px 0;
+}
+
+footer h2, footer nav {
+    float: left;
+}
+
+footer h2 {
+    background-image: url(../img/logo_small.png);
+    height: 40px;
+    margin: 0;
+    width: 137px
+    }
+
+footer nav {
+    margin-left: 30px;
+}
+
+footer nav ul {
+    margin: 12px 0;
+}
+
+footer nav a {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+footer nav li:last-child a {
+    border-right: none;
+}
+
+footer small {
+    color: #77A2B5;
+    float: right;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.dialog {
+    display: none;
+}
+
+.dialog label {
+    display: block;
+}
+
+.error {
+    color:red;
+}

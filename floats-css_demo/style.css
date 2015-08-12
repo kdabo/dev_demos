@@ -1,0 +1,72 @@
+html {
+	background: skyblue;
+	font-family: sans-serif;
+}
+
+
+a{
+	color: red;
+}
+
+header {
+	background: cyan;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+aside {
+	background: orange;
+	width: 200px;
+}
+
+aside, section {
+	float: left;
+}
+
+section {
+	width: 600px;
+	background: white;
+}
+
+body {
+	width: 800 px;
+	margin: 0 auto;
+}
+
+
+main {
+	background: orange;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.callout {
+	float: left;
+	border: 2px inset;
+	clear: both;
+}
+
+.callout--second {
+	float: left;
+	
+}
+
+h3 {
+	clear: both;
+}
+
+figure {
+	float: right;
+}

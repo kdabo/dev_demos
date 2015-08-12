@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #002344;
+  color: #002344;
+  font-family: sans-serif;
+}
+
+a {
+  color: #77A2B5;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+header {
+  background: #005275;
+  height: 70px;
+}
+
+header h1, footer h2 {
+  /* image replacement hack */
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  /* end image replacement hack */
+  float: left;  
+}
+
+header h1 {
+  background: url('../images/logo.png') no-repeat;
+  height: 50px;
+  width: 171px;
+  margin: 10px 0 0;
+}
+
+.login {
+  float: right;
+  font-size: 14px;
+  margin-top: 28px;
+}
+
+.login a {
+  border-left: 1px solid #002344;
+  margin-left: 1px;
+  padding-left: 5px;
+}
+
+nav, footer {
+  background: #002344;
+}
+
+nav {
+  font-size: 14px;
+  height: 36px;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 11px 20px;
+}
+
+.hero {
+  background: #77A2B5 url('../images/hero.jpg') 50% no-repeat;
+  height: 350px;
+  position: relative;
+}
+
+.hero .content {
+  background: rgba(0, 0, 0, .25);
+  bottom: 0;
+  height: 130px;
+  position: absolute;
+  width: 100%;
+}
+
+.hero h1 {
+  color: white;
+  float: left;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 25px 0;
+  text-shadow: 0 0 20px black;
+}
+
+.hero strong {
+  display: block;
+}
+
+.hero a {
+  background: #77a2b5; /* Old browsers */
+  background: -moz-linear-gradient(top, #77a2b5 0%, #005275 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#77a2b5), color-stop(100%,#005275)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #77a2b5 0%,#005275 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #77a2b5 0%,#005275 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #77a2b5 0%,#005275 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #77a2b5 0%,#005275 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77a2b5', endColorstr='#005275',GradientType=0 ); /* IE6-9 */
+
+  border: 1px solid #002344;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(255,255,255,.5) inset, -1px -1px 1px rgba(0,0,0,.5) inset;
+  color: white;
+  float: right;
+  font-size: 30px;
+  margin: 39px 0;
+  padding: 10px 20px;
+}
+
+.details {
+  background: #ECE2C6;
+}
+
+.details ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 75%;
+}
+
+.details li {
+  background-position: 0 -5px;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  padding-left: 60px;
+}
+
+.details li:last-child {
+  margin-bottom: 0;
+}
+
+.details h2 {
+  margin: 0 0 5px;
+}
+
+.details p {
+  margin: 0;
+}
+
+.detail--agile {
+  background-image: url('../images/agile.png');
+}
+
+.detail--mobile {
+  background-image: url('../images/mobile.png');
+}
+
+.detail--cloud {
+  background-image: url('../images/cloud.png');
+}
+
+footer {
+  height: 52px;
+}
+
+footer h2 {
+  background: url('../images/logo_small.png');
+  height: 40px;
+  margin: 6px 30px 6px 0;
+  width: 137px;
+}
+
+footer ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 18px 0;
+}
+
+footer li {
+  border-right: 1px solid black;
+  float: left;
+}
+
+footer li:last-child {
+  border-right: none;
+}
+
+footer a, footer small {
+  font-size: 14px;  
+}
+
+footer a {
+  padding: 10px;
+}
+
+footer small {
+  color: #77A2B5;
+  float: right;
+  margin: 19px 0;
+}
